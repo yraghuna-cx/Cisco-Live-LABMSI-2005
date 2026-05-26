@@ -80,7 +80,7 @@ SONiC is Linux underneath, with a CLI layer (`show`, `config`), an FRR routing s
 Use your putty sessions and land on the virtual host
 
 ```bash
-ssh cisco@198.18.200.11
+ssh -o HostKeyAlgorithms=+ssh-rsa -o PubkeyAcceptedAlgorithms=+ssh-rsa cisco@198.18.128.11
 #password:cisco123
 cd /home/cisco/cisco8000e/sonic-clab/c8101/ansible
 ```
