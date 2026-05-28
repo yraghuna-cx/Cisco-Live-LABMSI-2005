@@ -80,7 +80,7 @@ For participants who have completed the introductory SONiC lab (or have basic SO
 Use your putty sessions and land on the virtual host
 
 ```bash
-ssh cisco@198.18.200.11
+ssh cisco@198.18.128.11
 #password:cisco123
 cd /home/cisco/cisco8000e/sonic-clab/c8101/ansible
 ```
